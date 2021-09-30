@@ -1,0 +1,26 @@
+{
+  "name": "calculating-form",
+  "version": "0.0.2",
+  "description": "Tool for automatical form calculation",
+  "main": "index.js",
+  "scripts": {
+    "uglify": "uglifyjs index.js --output dist/calc-form.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okedo/calculating-form.git"
+  },
+  "keywords": [
+    "calculate",
+    "form"
+  ],
+  "author": "okedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okedo/calculating-form/issues"
+  },
+  "homepage": "https://github.com/okedo/calculating-form#readme",
+  "devDependencies": {
+    "uglify-js": "^3.14.2"
+  }
+}
